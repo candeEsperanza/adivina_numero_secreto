@@ -3,7 +3,7 @@ const generarNumAleatorio = () => {
 };
 
 const verificarAdivinanza = (numeroSecreto, numeroAdivinado) => {
-    if (numeroAdivinado == numeroSecreto) {
+    if (numeroAdivinado == numeroSecreto) { //le quito el estricctamente igual ya que no me tomaba el numero secreto, creo que es porque es un String.
         console.log('Felicitaciones, adivinaste el numero secreto');
 
     }else if(numeroAdivinado > numeroSecreto){
